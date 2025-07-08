@@ -40,6 +40,10 @@
 .secondary-bg{
     background-color: #FFF8F3;
 }
+
+.text-center{
+    text-align: center;
+}
 /* header */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -120,4 +124,20 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skills{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 6%);
 }
